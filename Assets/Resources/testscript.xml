@@ -1,0 +1,148 @@
+<root>
+<dialog character="backdraft">
+  <text>'...': Who are you?  What are you doing here?</text>
+  <choice route="alliance">
+    <text>Ms. Meta: Relax, buddy, I'm not looking for trouble.</text>
+    <dialog character="backdraft">
+      <text>'...': You're not?  Then maybe you'd better be on your way.  This is a military facility, and you don't look like authorized personnel.</text>
+      <choice route="true">
+        <text>Ms. Meta: I'm not, but I'm looking for someone.  Maybe you can help me.</text>
+        <dialog character="backdraft">
+          <text>'...': ...I suppose I could.  I've got a minute. Who're you looking for?  Lost kitty, missing sister...?</text>
+          <choice route="true">
+            <text>Ms. Meta: A flying kid in red and black armor.  They go by Arachdroid.</text>
+            <dialog character="backdraft">
+              <text>'...': A kid in...flying armor?</text>
+              <text>'...': AHAHAHAHA!  Oh, honey, you're a real riot!</text>
+              <choice route="true">
+                <text>Ms. Meta: No, I'm not kidding.  It's a lot to explain, but they're trying to find a legendary supervillain, a guy called Backdraft.</text>
+                <text>Ms. Meta: I'm concerned they'll try to tangle with him and get hurt.  I have to head them off.</text>
+                <dialog character="backdraft">
+                  <text>'...': ...huh.</text>
+                  <text>'...': ...Backdraft.</text>
+                  <text>'...': ...that's a funny name.</text>
+                    <dialog character="ms-meta">
+                      <text>Ms. Meta: Well, superheroes only just started, uh, happening, around now.</text>
+                      <text>Ms. Meta: Nobody was getting especially creative with their names at this point.</text>
+                      <text>Ms. Meta: The Red Maiden wore a lot of red, Strongarm had strong arms.</text>
+                      <text>Ms. Meta: And Backdraft had fire powers.</text>
+                      <text>Ms. Meta: You still haven't told me your name, sir.</text>
+                      <text>Ms. Meta: But I think I can guess it, from those scorched cuffs on your suit.</text>
+                      <text>Ms. Meta: And the fact that it looks like you're in the right place, at the right time.</text>
+                      <dialog character="backdraft">
+                        <text>'...': ...</text>
+                        <text>Backdraft: You're smart.  I'll give you that much.</text>
+                        <text>Backdraft: And I don't know who you're getting your intel from...</text>
+                        <text>Backdraft: ...but you're not leaving here alive.</text>
+                      </dialog>
+                    </dialog>
+                </dialog>
+              </choice>
+              <choice route="alliance">
+                <text>Ms. Meta: Uh, heh heh, yeah.  I got you good with the armor joke, huh?</text>
+                <text>Ms. Meta: Look, can you just clear something up?  Are you a superhero or did you get lost on the way to a fancy costume party?</text>
+                <dialog character="backdraft">
+                  <text>'...': I suppose I am.  Yes.  I'm a superhero.  Of a sort.</text>
+                  <dialog character="ms-meta">
+                    <text>Ms. Meta: Great!  What's your name?</text>
+                    <dialog character="backdraft">
+                      <text>'...': My...name?  I don't...uh...</text>
+                      <text>'...': ...what business is it of yours, anyway?</text>
+                      <dialog character="ms-meta">
+                        <text>Ms. Meta: You still haven't explained what you're doing here.</text>
+                        <text>Ms. Meta: Now...you can tell me you don't owe me an explanation.</text>
+                        <text>Ms. Meta: But I have certain...inside information that told me that this shipyard is about to experience a devestating explosion today.</text>
+                        <text>Ms. Meta: And here you are.  Right at the epicenter of where the blast was supposed to have been triggered.</text>
+                        <text>Ms. Meta: Wearing a mask, and a suit with...scorched cuffs.</text>
+                        <dialog character="backdraft">
+                          <text>'...': ...</text>
+                          <text>'...': ...</text>
+                          <text>'...': ...I don't know where you got your information from, clever girl...</text>
+                          <text>Backdraft: ...but you're not leaving this place alive.</text>
+                        </dialog>
+                      </dialog>
+                    </dialog>
+                  </dialog>
+                </dialog>
+              </choice>
+            </dialog>
+          </choice>
+        </dialog>
+      </choice>
+      <choice route="alliance">
+        <text>Ms. Meta: Look, can you just clear something up?  Are you a superhero or did you get lost on the way to a fancy costume party?</text>
+        <dialog character="backdraft">
+          <text>'...': I suppose I am.  Yes.  I'm a superhero.  Of a sort.</text>
+          <dialog character="ms-meta">
+            <text>Ms. Meta: Great!  What's your name?</text>
+            <dialog character="backdraft">
+              <text>'...': My...name?  I don't...uh...</text>
+              <text>'...': ...what business is it of yours, anyway?</text>
+              <dialog character="ms-meta">
+                <text>Ms. Meta: You still haven't explained what you're doing here.</text>
+                <text>Ms. Meta: Now...you can tell me you don't owe me an explanation.</text>
+                <text>Ms. Meta: But I have certain...inside information that told me that this shipyard is about to experience a devestating explosion today.</text>
+                <text>Ms. Meta: And here you are.  Right at the epicenter of where the blast was supposed to have been triggered.</text>
+                <text>Ms. Meta: Wearing a mask, and a suit with...scorched cuffs.</text>
+                <dialog character="backdraft">
+                  <text>'...': ...</text>
+                  <text>'...': ...</text>
+                  <text>'...': ...I don't know where you got your information from, clever girl...</text>
+                  <text>Backdraft: ...but you're not leaving this place alive.</text>
+                </dialog>
+              </dialog>
+            </dialog>
+          </dialog>
+        </dialog>
+      </choice>
+    </dialog>
+  </choice>
+  <choice route="lone-wolf">
+    <text>Ms. Meta: I could ask you the same question.</text>
+    <dialog character="backdraft">
+      <text>'...': Minding my own business, unlike some.  Why don't you go home, little girl?</text>
+      <choice route="alliance">
+        <text>Ms. Meta: Maybe we got off on the wrong foot.</text>
+        <dialog character="backdraft">
+          <text>'...': Maybe we did.</text>
+        </dialog>
+        <dialog character="ms-meta">
+          <text>Ms. Meta: Look, can you just clear something up?  Are you a superhero or did you get lost on the way to a fancy costume party?</text>
+          <dialog character="backdraft">
+            <text>'...': I suppose I am.  Yes.  I'm a superhero.  Of a sort.</text>
+            <dialog character="ms-meta">
+              <text>Ms. Meta: Great!  What's your name?</text>
+              <dialog character="backdraft">
+                <text>'...': My...name?  I don't...uh...</text>
+                <text>'...': ...what business is it of yours, anyway?</text>
+                <dialog character="ms-meta">
+                  <text>Ms. Meta: You still haven't explained what you're doing here.</text>
+                  <text>Ms. Meta: Now...you can tell me you don't owe me an explanation.</text>
+                  <text>Ms. Meta: But I have certain...inside information that told me that this shipyard is about to experience a devestating explosion today.</text>
+                  <text>Ms. Meta: And here you are.  Right at the epicenter of where the blast was supposed to have been triggered.</text>
+                  <text>Ms. Meta: Wearing a mask, and a suit with...scorched cuffs.</text>
+                  <dialog character="backdraft">
+                    <text>'...': ...</text>
+                    <text>'...': ...</text>
+                    <text>'...': ...I don't know where you got your information from, clever girl...</text>
+                    <text>Backdraft: ...but you're not leaving this place alive.</text>
+                  </dialog>
+                </dialog>
+              </dialog>
+            </dialog>
+          </dialog>
+        </dialog>
+      </choice>
+      <choice route="lone-wolf">
+        <text>Ms. Meta: ...where do you get off, calling me 'little girl'?</text>
+        <dialog character="backdraft">
+          <text>'...': What's this?  You think you're tough stuff, sweetie?</text>
+          <dialog character="ms-meta">
+            <text>Ms. Meta: I know I am.  Let's see about YOU...little man.</text>
+          </dialog>
+        </dialog>
+      </choice>
+    </dialog>
+  </choice>
+</dialog>
+</root>

@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "This is the first node!!\n\n[[Go to the next node|NextNode]]\n[[No thanks.|NoThanks]]",
+		"position": {
+			"x": 45,
+			"y": 173
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NextNode",
+		"tags": "",
+		"body": "Thanks for playing along!",
+		"position": {
+			"x": -186,
+			"y": 500
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoThanks",
+		"tags": "",
+		"body": "Yeah well, have fun in hell",
+		"position": {
+			"x": 316,
+			"y": 495
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alternate",
+		"tags": "",
+		"body": "This is the alternate text [[Alternate2]]",
+		"position": {
+			"x": 1021,
+			"y": 160
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alternate2",
+		"tags": "",
+		"body": "Isn't that cool?",
+		"position": {
+			"x": 765,
+			"y": 498
+		},
+		"colorID": 0
+	}
+]

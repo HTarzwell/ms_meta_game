@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 13d745573d5fb3f4f981e08b72cc1b42
+timeCreated: 1531945253
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Invulnerable BB
+  fontNames:
+  - Invulnerable BB
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0b9b82cac1e49c94ba4917abb55b005b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

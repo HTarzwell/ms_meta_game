@@ -1,0 +1,183 @@
+title: 111
+tags: 
+colorID: 0
+position: 493,282
+---
+<<setActors DialogueManager MsMeta null null>> 
+<<setExpression MsMetaDialogueActor smiling>>
+MsMeta: …amazing. It actually worked!
+<<setExpression MsMetaDialogueActor smiling_closed>>
+MsMeta: I’m in the past. I traveled through time. And I made it in one piece!
+<<setExpression MsMetaDialogueActor neutral>>
+MsMeta: Huh. Justice City looks…different in 1942.
+<<setExpression MsMetaDialogueActor neutral>>
+MsMeta: And no sign of Arachdroid anywhere. That’s bad news. What if they’ve already started messing with history?
+
+
+[[112]] 
+===
+title: 112
+tags: 
+colorID: 0
+position: 489,570
+---
+<<setActors DialogueManager MsMeta null Max>> 
+
+<<setExpression MaxDialogueActor neutral_speaking>>
+Max: Well, the fabric of reality hasn’t unravelled yet, so I think we’ve still got breathing room.
+<<setExpression MsMetaDialogueActor smiling>>
+MsMeta: Max!
+<<setExpression MaxDialogueActor pleased>>
+Max: Hey, Army, this is the year 2020 on the line. Good to hear you’re okay. Any joy yet?
+<<setExpression MsMetaDialogueActor neutral>>
+MsMeta: No, sorry. There’s no sign of Arachdroid.
+<<setExpression MsMetaDialogueActor neutral>>
+MsMeta: And Justice City looks so different in 1942, I’m not even sure how to get to the old Harbor Shipyard, let alone stop them from interfering in the biggest punch-up in superhero history.
+<<setExpression MaxDialogueActor neutral_speaking>>
+Max: Hang tight. I’ll send you a map.
+<<setExpression MsMetaDialogueActor smiling>>
+MsMeta: You can do that?
+<<setExpression MaxDialogueActor neutral>>
+Max: Yeah, the prototype Time Engine you got doesn’t have a built-in historical variator like the version Arachdroid stole, so I’ll hard-code you one. I’ll have to account for some mathematical variables based off Grandma’s research on temporal displacement and my own work on P versus NP.
+
+<<setExpression MsMetaDialogueActor smirking>>
+MsMeta: So long as it gets me where I need to go, I don’t care how it works.
+<<setExpression MaxDialogueActor pleased_closed>>
+Max: Heh. They teach you that in USACE? Anyway, here it comes.
+<<setExpression MaxDialogueActor neutral>>
+Max: Press [PLAYER INTERACTION BUTTON] to bring up the map.
+<<setExpression MsMetaDialogueActor sad>>
+MsMeta: It’s…kind of a mess.
+<<setExpression MaxDialogueActor worried>>
+Max: Huh. It…shouldn’t be. I accounted for the Time Engine’s temporal distortion mechanics.
+<<setExpression MsMetaDialogueActor neutral_speaking>>
+MsMeta: I’ll see if I can get it working.
+<<setExpression MsMetaDialogueActor smiling>>
+MsMeta: Okay, I think I’ve got it.
+<<setExpression MaxDialogueActor smiling>>
+Max: Nice work!
+<<setExpression MaxDialogueActor smiling>>
+Max: Now all you’ve got to do is follow the arrows.
+<<setExpression MsMetaDialogueActor sad_speaking>>
+MsMeta: What arrows?
+
+
+===
+title: 113
+tags: 
+colorID: 0
+position: 489,570
+---
+<<setActors DialogueManager MsMetaRight null Max>>
+
+<<setExpression MsMetaDialogueActorRight neutral>>
+MsMetaRight: It’s one of Arachdroid’s spider drones!
+
+<<setExpression MaxDialogueActor worried>>
+Max: Seriously? What’s it doing?
+
+<<setExpression MsMetaDialogueActorRight neutral_speaking>>
+MsMetaRight: It’s just wandering around…
+
+<<setExpression MaxDialogueActor neutral>>
+Max: Oh. I’ve seen that before. ‘Patrol mode’, it’s called. That means Alex must be somewhere nearby.
+
+<<setExpression MsMetaDialogueActorRight sad>>
+MsMetaRight: ‘Alex’…you mean Arachdroid.
+
+<<setExpression MsMetaDialogueActorRight neutral>>
+MsMetaRight: …I’ll try talking to it. Maybe it knows where they are.
+
+[[114]]
+===
+title: 114
+tags: 
+colorID: 0
+position: 489,570
+---
+<<setActors DialogueManager SpiderDrone MsMetaRight null>>
+
+<<setExpression MsMetaDialogueActorRight smiling_closed>>
+MsMetaRight: Hey there, little guy!
+
+<<setExpression MsMetaDialogueActorRight smiling>>
+MsMetaRight: Where’s your maker? 
+SpiderDrone: …
+
+<<setExpression MsMetaDialogueActorRight sad_speaking>>
+MsMetaRight: Whoa! Hold up! We don’t have to fight.
+
+SpiderDrone: DESTROY DESTROY attack DESTROY
+
+<<setExpression MsMetaDialogueActorRight sad>>
+MsMetaRight: …okay, so, I guess you think we do have to fight.
+
+===
+title: 114.2
+tags: 
+colorID: 0
+position: 489,570
+---
+<<setExpression MsMetaDialogueActor angry closed mouth>>
+MsMeta: It didn’t have to be like this. I hate having to fight robots.
+
+<<setExpression MaxDialogueActor angry>>
+Max: Mm. Did it just call you a scrub? I’m gonna have a word with Alex about that.
+
+<<setExpression MaxDialogueActor worried>>
+Max: Once you’ve finished stopping them from destroying reality as we know it, I mean. Priorities.
+
+
+===
+title: 115
+tags: 
+colorID: 0
+position: 489,570
+---
+<<setActors DialogueManager null MsMetaRight Max>>
+
+<<setExpression MaxDialogueActor neutral_speaking>>
+Max: Hey, Meta, your passive proximity scanner just sent back a ping.
+
+<<setExpression MaxDialogueActor neutral>>
+Max: Keep going where you’re going, you’re getting closer to Alex with every step.
+
+<<setExpression MsMetaDialogueActorRight sad>>
+MsMetaRight: Uh…about that.
+
+<<setExpression MaxDialogueActor worried>>
+Max: What’s wrong?
+
+<<setExpression MsMetaDialogueActorRight sad_speaking>>
+MsMetaRight: If I keep going where I’m going, I’m going to end up walking into the business end of a bayonet.
+
+<<setExpression MsMetaDialogueActorRight angry_closed>>
+MsMetaRight: On a scale of one to ten, how well do you think a couple of military police in the early 1940s would react to a black woman walking up to them, asking them to let her into a secured military installation?
+
+<<setExpression MaxDialogueActor worried_speaking>>
+Max: Meta, where are you?
+
+<<setExpression MsMetaDialogueActorRight sad>>
+MsMetaRight: I’m outside the gates of the Justice City Naval Shipyard. They’re guarded, but…Arachdroid can fly.
+
+<<setExpression MaxDialogueActor angry>>
+Max: Forget that. Find another way in. How high is the wall?
+
+<<setExpression MsMetaDialogueActorRight neutral>>
+MsMetaRight: Normally, it wouldn’t be a problem, but I can’t jump as high as I usually can…I don’t know why. If I wanted to get past it, I’d need to find something close to my height to get up on.
+
+[[115.1]]
+
+===
+title: 115.1
+tags: 
+colorID: 0
+position: 489,570
+---
+-> “FIGHT”
+    <<setExpression MaxDialogueActor worried>>
+    Max: Do not do that. Bad, bad idea. I know you could take these dudes down, but we have to get Alex out of the past with as little collateral damage as possible.
+    [[115.1]]
+-> “WALK AWAY”
+    <<setExpression MsMetaDialogueActorRight neutral_speaking>>
+    MsMetaRight: You’re right, forget this. I’m going to find another way in. I just need to find something about my height, then I can jump over that wall no problem…

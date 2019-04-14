@@ -1,0 +1,102 @@
+[
+	{
+		"title": "Backdraft.Start",
+		"tags": "Start Backdraft",
+		"body": "<<set $leftActor to \"MsMeta\">>\n<<set $rightActor to \"Backdraft\">>\n<<set $speakingActor to \"Backdraft\">>\n\nWho are <b>you</b>? What are you doing <i>here</i>?\n\n[[Relax, buddy, I'm not looking for trouble.|Alliance.1]]\n[[I could ask you the same question.|Lonewolf.1]]",
+		"position": {
+			"x": 161,
+			"y": -1569
+		},
+		"colorID": 5
+	},
+	{
+		"title": "Alliance.1",
+		"tags": "",
+		"body": "<<set $speakingActor to \"MsMeta\">>\nRelax, <b>buddy</b>, I'm not looking for <i>trouble</i>.\n<<set $speakingActor to \"Backdraft\">>\nYou're <b><i>not</i></b>? Then maybe you'd better be on your way. \nThis is a <b><i>military</i></b> facility, and you don't look like <i>authorized personnel</i>.\n\n[[I'm not, but I'm looking for someone. Maybe you can help me|True.1]]\n[[Look, can you just clear something up?  Are you a superhero or did you get lost on the way to a fancy costume party?|Alliance.2]]",
+		"position": {
+			"x": -138,
+			"y": -1270
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lonewolf.1",
+		"tags": "",
+		"body": "<<set $speakingActor to \"MsMeta\">>\nI could ask you the same question.\n\n<<set $speakingActor to \"Backdraft\">>\nMinding my own business, unlike some. Why don't you go home, little girl?\n\n[[Maybe we got off on the wrong foot.|Lonewolf.Alliance.2]]\n[[...where do you get off, calling me 'little girl'?|Lonewolf.2]]",
+		"position": {
+			"x": 441,
+			"y": -1254
+		},
+		"colorID": 0
+	},
+	{
+		"title": "True.1",
+		"tags": "",
+		"body": "<<set $speakingActor to \"MsMeta\">>\nI'm not, but I'm looking for someone. \nMaybe you can help me.\n\n<<set $speakingActor to \"Backdraft\">>\n...I suppose I could. I've got a minute. \nWho're you looking for? \nLost kitty, missing sister...?\n\n<<set $speakingActor to \"MsMeta\">>\nA flying kid in red and black armor. \nThey go by Arachdroid.\n\n<<set $speakingActor to \"Backdraft\">>\nA kid in...flying armor?\nAHAHAHAHA! Oh, honey, you're a real riot!\n\n[[No, I'm not kidding.|True.2]]\n[[Uh, heh heh, yeah. |True.Alliance.2]]",
+		"position": {
+			"x": -638,
+			"y": -1215
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alliance.2",
+		"tags": "",
+		"body": "<<set $speakingActor to \"MsMeta\">>\nLook, can you just clear something up? \nAre you a superhero or did you get lost on the way to a fancy costume party?\n\n<<set $speakingActor to \"Backdraft\">>\nI suppose I am. Yes. I'm a superhero. Of a sort.\n\n<<set $speakingActor to \"MsMeta\">>\nGreat! What's your name?\n\n<<set $speakingActor to \"Backdraft\">>\nMy...name?  I don't...uh...\n...what business is it of yours, anyway?\n\n<<set $speakingActor to \"MsMeta\">>\nYou still haven't explained what you're doing here.\nNow...you can tell me you don't owe me an explanation.\nBut I have certain...inside information that told me that this shipyard is about to experience a devestating explosion today.\nAnd here you are. \nRight at the epicenter of where the blast was supposed to have been triggered.\nWearing a mask, and a suit with...scorched cuffs.\n\n<<set $speakingActor to \"Backdraft\">>\n...\n...\n...I don't know where you got your information from, clever girl...\n...but you're not leaving this place alive.\n\n[[Fight]]",
+		"position": {
+			"x": -133,
+			"y": -830
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lonewolf.2",
+		"tags": "",
+		"body": "<<set $speakingActor to \"MsMeta\">>\n...where do you get off, calling me 'little girl'?\n\n<<set $speakingActor to \"Backdraft\">>\nWhat's this? You think you're tough stuff, sweetie?\n\n<<set $speakingActor to \"MsMeta\">>\nMs. Meta: I know I am. Let's see about YOU...little man.\n\n[[Fight]]",
+		"position": {
+			"x": 699,
+			"y": -830
+		},
+		"colorID": 0
+	},
+	{
+		"title": "True.2",
+		"tags": "",
+		"body": "<<set $speakingActor to \"MsMeta\">>\nNo, I'm not kidding. It's a lot to explain. \nThey're trying to find a legendary supervillain, \na guy called Backdraft.\nI'm concerned they'll try to tangle with him and get hurt. \nI have to head them off.\n\n<<set $speakingActor to \"Backdraft\">>\n...huh.\n...Backdraft.\n..that's a funny name.\n\n<<set $speakingActor to \"MsMeta\">>\nWell, superheroes only just started, uh, happening, around now.\nNobody was getting especially creative with their names at this point.\nThe Red Maiden wore a lot of red, Strongarm had strong arms.\nAnd Backdraft had fire powers.\nYou still haven't told me your name, sir.\nBut I think I can guess it, \nfrom those scorched cuffs on your suit.\nAnd the fact that it looks like you're in the right place, \nat the right time.\n\n<<set $speakingActor to \"Backdraft\">>\nYou're smart. I'll give you that much.\nAnd I don't know who you're getting your intel from...\n...but you're not leaving here alive.\n\n[[Fight]]",
+		"position": {
+			"x": -860,
+			"y": -825
+		},
+		"colorID": 0
+	},
+	{
+		"title": "True.Alliance.2",
+		"tags": "",
+		"body": "<<set $speakingActor to \"MsMeta\">>\nUh, heh heh, yeah. I got you good with the armor joke, huh?\n\n[[Alliance.2]]",
+		"position": {
+			"x": -434,
+			"y": -831
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Lonewolf.Alliance.2",
+		"tags": "",
+		"body": "<<set $speakingActor to \"MsMeta\">>\nMaybe we got off on the wrong foot.\n\n<<set $speakingActor to \"Backdraft\">>\nMaybe we did.\n\n[[Alliance.2]]",
+		"position": {
+			"x": 154,
+			"y": -828
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fight",
+		"tags": "",
+		"body": "<<set $leftActor to null>>\n<<set $rightActor to null>>\n<<set $speakingActor to null>>",
+		"position": {
+			"x": -123,
+			"y": -399
+		},
+		"colorID": 0
+	}
+]
